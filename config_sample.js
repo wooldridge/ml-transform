@@ -5,7 +5,7 @@ config.path = "/PATH/TO/ml-transform/"; // include trailing "/"
 config.host = "localhost";
 
 config.database = {
-  "name": "ml-resource-extension",
+  "name": "ml-transform",
   "port": 8578
 };
 
