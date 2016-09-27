@@ -89,9 +89,9 @@ function createREST() {
     });
 }
 
-var dataPath = config.path + 'docs/'
-    dataFiles = fs.readdirSync(dataPath),
-    count = 0;
+// var dataPath = config.path + 'docs/'
+//     dataFiles = fs.readdirSync(dataPath),
+//     count = 0;
 
 function loadData() {
   var currFile = dataFiles.shift();

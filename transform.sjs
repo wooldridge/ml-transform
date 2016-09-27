@@ -13,6 +13,9 @@ function insertTimestamp(context, params, content)
     if (params.mark) {
       result.mark = params.mark;
     }
+    if (params.no) {
+      result.no = params.no;
+    }
     return result;
   } else {
     /* Pass thru for non-JSON documents */
