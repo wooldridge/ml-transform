@@ -1,8 +1,7 @@
 {
-  "name": "ml-resource-extension",
+  "name": "ml-transform",
   "version": "0.0.1",
-  "description": "MarkLogic resource extensions with Node.js",
-  "main": "index.js",
+  "description": "MarkLogic transformations with Node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
