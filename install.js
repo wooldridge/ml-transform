@@ -21,6 +21,10 @@ db.config.transforms.write({
   version: 1.0
 }).result(function(response) {
   console.log('Installed transform: ' + response.name);
+  db.config.transforms.read('js-transform')
+          .result(function(response){
+            console.log(response);
+          });
 }, function(error) {
   console.log(JSON.stringify(error, null, 2));
 });
