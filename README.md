@@ -7,7 +7,7 @@
 
 ## Running the Examples
 
-1. Install dependencies:
+1. Clone the project and install dependencies:
 
    ```npm install```
 
@@ -17,13 +17,13 @@
 
    ```node setup```
 
-4. Install the transform:
+4. Install the example transform:
 
-   ```node install```
+   ```node install-transform```
 
 5. Write documents using the installed transform:
 
-   ```node use-*```
+   ```node write-*```
 
 5. To undo the setup step and start over:
 
